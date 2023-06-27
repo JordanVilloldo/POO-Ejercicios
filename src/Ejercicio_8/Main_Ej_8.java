@@ -30,7 +30,7 @@ public class Main_Ej_8 {
 
         System.out.println("");
 
-        cs.reemplazar("$", c1);
+        //cs.reemplazar("$", c1);
 
         cs.mostrarVocales(c1);
         cs.invertirFrase(c1);

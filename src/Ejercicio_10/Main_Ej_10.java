@@ -32,10 +32,15 @@ public class Main_Ej_10 {
         Arrays.sort(arregloA);
         System.out.println( Arrays.toString(arregloA));
         
+        /*
         //llenamos los 10 primeros numeros de arregloB con los 10 primeros de arregloA
         for (int i = 0; i < 10; i++) {
             arregloB[i]=arregloA[i];
-        }
+        }*/
+        
+        arregloB = Arrays.copyOf(arregloA, 20);// en el 20 seria el nuevo tamaño del arreglo, pero luego reemplazamos
+        
+        
         //llenamos los ultimos 10 del arregloB con 0.5
         Arrays.fill(arregloB, 10,20, 0.5);
         
